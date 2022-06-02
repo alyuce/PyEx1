@@ -1,0 +1,26 @@
+#Exercícios de Manipulação de Strings 
+
+# 1 - Use o método len para imprimir o comprimento da string. 
+txt1 = "Hello World" 
+print(len(txt1)) 
+
+# 2 - Obtenha o primeiro caractere da string txt. 
+txt2 = "Hello World" 
+txt2[0] 
+
+
+# 3 - Obtenha os caracteres do índice 2 ao índice 4 (llo). 
+txt3 = "Hello World" 
+txt3[2:4] 
+
+# 4 - Converta o valor de txt para maiúsculas. 
+txt4 = "Hello World" 
+txt4.upper() 
+
+# - Conte quantas vezes aparece a palavra "de" na string abaixo 
+txt5 = "Eu gosto de vijar, tomar vinho, de estudar estudar programação, de estudar Pyhon" 
+print(txt5.count('de')) 
+
+# - Separe a frase abaixo toda vez que encontrar um vírgula 
+txt6 = "Eu gosto de vijar, tomar vinho, de estudar estudar programação, de estudar Pyhon" 
+txt6.split(',')
