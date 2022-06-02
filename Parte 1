@@ -1,0 +1,65 @@
+#1
+nome = "Alice Beserra"
+turma = "Noite"
+curso = "Desenvolvimento de sistemas - DS"
+periodo = "2ano"
+
+print('Nome: ', nome) 
+print('Turma: ', turma) 
+print('Curso que faz na ETEC: ', curso) 
+print('Período do Curso: ', periodo) 
+
+#2
+print('\n\nApenas o sobrenome: ', nome[6:13])
+
+#3
+print('\n\nNome de trás para frente: ', nome[::-1])
+
+#4
+frase = "Python é a linguagem ideal para o primeiro contato com programação, além da sua sintaxe simples e muito poderosa, Python tem diversas aplicações como: desenvolvimento web, análise de dados, inteligência artificial e automatização de tarefas, neste curso você aprenderá a lógica de programação para conquistar fluência na linguagem, a comunidade Python é a que mais cresce, assim como sua demanda de profissionais no mercado."
+print('\n\nFrase com split: ', frase.split(','))
+
+#5
+numeros = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print('\n\nNúmeros em lista: ', numeros)
+
+#6
+obj = ['Copo', 'Bacia', 'Forno', 'Fogão', 'Garrafa']
+print('\nObjetos em lista: ', obj)
+
+#7
+a = 'A etec'
+b = 'é a melhor!'
+c = a + ' de Hortolândia ' + b
+print('\n\nConcatençâo de strings: \n', c, '\n\n')
+
+#8
+numeros = (1, 2, 2, 3, 4, 4, 4, 5)
+print(type(numeros))
+print(numeros)
+print(numeros.count(4))
+print('\n')
+
+#9
+dici = {}
+dici
+
+#10
+dicio = {"Vagas":8, "Alunos":11, "Professores":4}
+dicio
+
+#11
+dicio["Ônibus"] = 1
+dicio
+
+#12
+dicio2 = {'Nome':['Mohamed'],'Processo':[44.7, 99.4],'Testemunhas':[2]}
+dicio2
+
+#13
+lista1 = [['Brasil'], ('Sul', 'Suldeste'), {"Preço":800, "Passagem":1414}, 14.17]
+lista1
+
+#14
+frase = 'Cientista de Dados é o profissional mais legal do século XXI'
+frase[1:18]
